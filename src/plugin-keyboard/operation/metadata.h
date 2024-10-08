@@ -4,10 +4,9 @@
 
 #pragma once
 
-#include "interface/namespace.h"
 #include <QObject>
 
-namespace DCC_NAMESPACE {
+namespace dccV25 {
 
 class MetaData
 {
@@ -43,4 +42,4 @@ private:
 QDebug &operator<<(QDebug dbg, const MetaData &md);
 
 }
-Q_DECLARE_METATYPE(DCC_NAMESPACE::MetaData)
+Q_DECLARE_METATYPE(dccV25::MetaData)

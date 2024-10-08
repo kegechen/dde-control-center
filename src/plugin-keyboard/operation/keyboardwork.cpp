@@ -18,7 +18,7 @@
 #include <QDBusPendingCallWatcher>
 #include <QTranslator>
 
-using namespace DCC_NAMESPACE;
+using namespace dccV25;
 bool caseInsensitiveLessThan(const MetaData &s1, const MetaData &s2);
 
 const QMap<QString, QString> &ModelKeycode = {{"minus", "-"}, {"equal", "="}, {"backslash", "\\"}, {"question", "?/"}, {"exclam", "1"}, {"numbersign", "3"},

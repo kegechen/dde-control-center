@@ -5,7 +5,7 @@
 #include "metadata.h"
 #include <QDebug>
 
-using namespace DCC_NAMESPACE;
+using namespace dccV25;
 
 MetaData::MetaData(const QString &text, bool section)
     : m_text(text)

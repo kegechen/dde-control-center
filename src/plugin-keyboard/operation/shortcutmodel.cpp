@@ -12,7 +12,7 @@
 #include <QJsonObject>
 #include <QJsonValue>
 #include <QThreadPool>
-#include <QApplication>
+#include <QGuiApplication>
 
 QStringList systemFilter = {"terminal",
                             "terminal-quake",
@@ -59,7 +59,7 @@ const QStringList &assistiveToolsFilter = {"ai-assistant",
                                            "speech-to-text",
                                            "translation"};
 
-using namespace DCC_NAMESPACE;
+using namespace dccV25;
 DCORE_USE_NAMESPACE
 ShortcutModel::ShortcutModel(QObject *parent)
     : QObject(parent)

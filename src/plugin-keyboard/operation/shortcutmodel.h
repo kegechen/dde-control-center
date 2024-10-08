@@ -7,10 +7,9 @@
 
 #define MEDIAKEY 2
 
-#include "interface/namespace.h"
 #include <QObject>
 
-namespace DCC_NAMESPACE {
+namespace dccV25 {
 
 class ShortcutItem;
 struct ShortcutInfo
